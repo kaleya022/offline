@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="vievport" content="width=device-width, initial-sclale=1.0">
+      <title>NO INTERNET</title>
+      <link rel="stylesheet" href="./untitled-3.css">
+</head>
+
+    <body>
+
+        <nav class="navbar">
+            <h1 class="logo">META.OFFLINE</h1>
+            <ul class="nav-link">
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li class="ctn"><a href="#">contact</a></li>
+            </ul>
+            <img src="./m.jpg" alt="" class="menu-btn">
+    
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2 class="anim">No Internet, social Media</h2>
+                <div class="line"></div>
+                <h1 class="anim">OFFLINE STATION</h1>
+                <a href="#" class="ctn anim">Get Start</a>
+            </div>
+        </header>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlink = document.querySelector('.nav-link')
+            
+            menuBtn.addEventListener('click',()=>{
+                navlink.classList.toogle('mobile-menu')
+            })
+        </script>
+    </body>
+    </html>
